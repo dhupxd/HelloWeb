@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.judge.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RatingServlet</servlet-name>
+    <servlet-class>com.judge.servlet.RatingServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>getAdminServlet</servlet-name>
+    <servlet-class>com.judge.servlet.getAdminServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addAdminServlet</servlet-name>
+    <servlet-class>com.judge.servlet.addAdminServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>getTeamServlet</servlet-name>
+    <servlet-class>com.judge.servlet.getTeamServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>getResultServlet</servlet-name>
+    <servlet-class>com.judge.servlet.getResultServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EncodingFilter</servlet-name>
+    <servlet-class>com.judge.filter.EncodingFilter</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>getMyCookieServlet</servlet-name>
+    <servlet-class>com.judge.servlet.getMyCookieServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deleteCookieServlet</servlet-name>
+    <servlet-class>com.judge.servlet.deleteCookieServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>getAllServlet</servlet-name>
+    <servlet-class>com.judge.servlet.getAllServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deleteAllServlet</servlet-name>
+    <servlet-class>com.judge.servlet.deleteAllServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>updateAllServlet</servlet-name>
+    <servlet-class>com.judge.servlet.updateAllServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addAllServlet</servlet-name>
+    <servlet-class>com.judge.servlet.addAllServlet</servlet-class>
+  </servlet>
+    <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addEnrollServlet</servlet-name>
+    <servlet-class>com.judge.servlet.addEnrollServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>updateStartButtonServlet</servlet-name>
+    <servlet-class>com.judge.servlet.updateStartButtonServlet</servlet-class>
+  </servlet>
+  
+
+
+
+
+
+
+  <filter>
+    <display-name>EncodingFilter</display-name>
+  	<filter-name>EncodingFilter</filter-name>
+  	<filter-class>com.judge.filter.EncodingFilter</filter-class>
+  </filter>
+  <filter-mapping>
+  	<filter-name>EncodingFilter</filter-name>
+  	<url-pattern>/*</url-pattern>
+  </filter-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/servlet/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RatingServlet</servlet-name>
+    <url-pattern>/servlet/RatingServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getAdminServlet</servlet-name>
+    <url-pattern>/servlet/getAdminServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addAdminServlet</servlet-name>
+    <url-pattern>/servlet/addAdminServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getTeamServlet</servlet-name>
+    <url-pattern>/servlet/getTeamServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getResultServlet</servlet-name>
+    <url-pattern>/servlet/getResultServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EncodingFilter</servlet-name>
+    <url-pattern>/servlet/EncodingFilter</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getMyCookieServlet</servlet-name>
+    <url-pattern>/servlet/getMyCookieServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deleteCookieServlet</servlet-name>
+    <url-pattern>/servlet/deleteCookieServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getAllServlet</servlet-name>
+    <url-pattern>/servlet/getAllServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deleteAllServlet</servlet-name>
+    <url-pattern>/servlet/deleteAllServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updateAllServlet</servlet-name>
+    <url-pattern>/servlet/updateAllServlet</url-pattern>
+  </servlet-mapping>	
+  <servlet-mapping>
+    <servlet-name>addAllServlet</servlet-name>
+    <url-pattern>/servlet/addAllServlet</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>addEnrollServlet</servlet-name>
+    <url-pattern>/servlet/addEnrollServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updateStartButtonServlet</servlet-name>
+    <url-pattern>/servlet/updateStartButtonServlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

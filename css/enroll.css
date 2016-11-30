@@ -1,0 +1,47 @@
+@CHARSET "UTF-8";
+#header { 
+	height: 45px; 
+	width:100%;
+	background-color: #222; 
+}
+#header li{
+	text-align:center;
+	display:inline;
+	color:#ffffff;
+	font-size:20px;
+	list-style-type:none;
+}
+#header .nav{
+	float:left;
+}
+#header li a{
+	text-decoration:none;
+	padding:7px 10px;
+	color:#fff;
+}
+
+.enroll_form{
+	margin-top:200px;
+	margin-right: auto;
+	margin-left: 400px;
+	
+	
+}
+.disappear{
+	display:none;
+}
+#t_name{
+	font-size:25px;
+}
+#t_cnt{
+	margin-top:30px;
+	font-size:25px;
+}
+#t_leader{
+	margin-top:30px;
+	font-size:25px;
+}
+#t_phone{
+	margin-top:30px;
+	font-size:25px;
+}

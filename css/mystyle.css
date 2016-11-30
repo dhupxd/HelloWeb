@@ -1,0 +1,81 @@
+@CHARSET "UTF-8";
+li{
+	list-style-type:none;
+}
+#lable_way{
+	padding:7px 10px;
+	display:none;
+}
+#header { 
+	height: 45px; 
+	width:100%;
+	background-color: #222;
+	white-space:nowrap;
+	
+}
+#myTab{
+	margin:0 0 0 30px;
+	width:90%;
+	padding:5px;
+	color:#000;
+	line-height:30px;
+	float:left;
+	display:inline;
+}
+#header li{
+	text-align:center;
+	display:inline;
+	color:#ffffff;
+	font-size:20px;
+	list-style-type:none;
+}
+#header .nav{
+	float:right;
+	display:inline;
+}
+
+#header li a{
+	text-decoration:none;
+	padding:7px 10px;
+	color:#fff;
+}
+.login_form{
+	margin-top:200px;
+	margin-right: auto;
+	margin-left: 400px;
+}
+#user{
+	float:right;
+}
+#exit{
+	float:right;
+}
+
+
+#password{
+	margin-top:30px;
+	font-size:25px;
+}
+#admin_name{
+	font-size:25px;
+}
+
+.match_table { 
+	width: 100%; 
+	font-size: 20px; 
+	line-height: 1.3;
+	color: #000; 
+	margin-right:30px;
+}
+.match_table .thead { 
+	background-color: #f7d294; 
+	color: #504030; 
+}
+.match_table .thead td { padding-top: 10px; padding-bottom: 10px;padding-left:60px }
+.match_table .tbody td{ padding-left:60px } 
+
+
+image{
+	width:100px;
+	height:50px;
+}

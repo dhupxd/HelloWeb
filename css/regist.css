@@ -1,0 +1,39 @@
+@CHARSET "UTF-8";
+#header { 
+	height: 45px; 
+	width:100%;
+	background-color: #222; 
+}
+#header li{
+	text-align:center;
+	display:inline;
+	color:#ffffff;
+	font-size:20px;
+	list-style-type:none;
+}
+#header .nav{
+	float:right;
+}
+#header li a{
+	text-decoration:none;
+	padding:7px 10px;
+	color:#fff;
+}
+
+.login_form{
+	margin-top:200px;
+	margin-right: auto;
+	margin-left: 400px;
+}
+#password{
+	margin-top:30px;
+	font-size:25px;
+}
+#admin_name{
+	font-size:25px;
+}
+
+#password_certain{
+	margin-top:30px;
+	font-size:25px;
+}
